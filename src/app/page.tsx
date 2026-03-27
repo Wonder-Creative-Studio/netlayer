@@ -12,13 +12,10 @@ import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
 const SmoothScroll = dynamic(() => import("@/components/SmoothScroll"), { ssr: false });
-const CustomCursor = dynamic(() => import("@/components/CustomCursor"), { ssr: false });
-
 export default function Home() {
   return (
     <>
       <SmoothScroll />
-      <CustomCursor />
       <Navigation />
       <main>
         <Hero />

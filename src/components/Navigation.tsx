@@ -79,7 +79,7 @@ export default function Navigation() {
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-        className={`fixed top-4 left-6 lg:left-8 z-[9999] rounded-pill px-2 py-2 transition-all duration-500 ${
+        className={`fixed top-4 left-1/2 -translate-x-1/2 z-[9999] rounded-pill px-2 py-2 transition-all duration-500 ${
           scrolled
             ? "bg-void/80 backdrop-blur-xl border border-border-bright shadow-lg shadow-accent-blue/5"
             : "bg-void/40 backdrop-blur-md border border-border-dim"
